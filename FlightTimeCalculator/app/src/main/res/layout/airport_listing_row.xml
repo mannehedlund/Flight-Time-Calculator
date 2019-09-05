@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:background="@color/white1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/airportName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="62dp"
+            android:paddingLeft="8dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:text="Presidente João Suassuna Airport asd asd asd asd" />
+        <TextView
+            android:id="@+id/airportCode"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="end"
+            android:paddingRight="8dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            tools:text="CPV" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/airportCityCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:textSize="13sp"
+        tools:text="Stockholm, Sweden" />
+</LinearLayout>

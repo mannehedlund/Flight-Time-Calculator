@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Flight Time Calculator</string>
+
+    <!-- MainActivity java -->
+
+    <string name="GOOGLE_API_KEY">AIzaSyCP1WIon6N5CPSAqqirnrBydUIXIqnSKT0</string>
+    <string name="departure">
+        Departure
+    </string>
+    <string name="arrival">
+        Arrival
+    </string>
+
+    <!-- main xml -->
+
+    <string name="add_flight">
+        Add Flight
+    </string>
+    <string name="delete_flight">
+        Delete Flight
+    </string>
+    <string name="calculate_flight_time">
+        Calculate Flight Time
+    </string>
+
+    <!-- calculation popup xml -->
+
+    <string name="trip_results">
+        Trip Results
+    </string>
+    <string name="time_in_the_air">
+        Time in the Air:
+    </string>
+    <string name="time_connecting">
+        Time Connecting:
+    </string>
+    <string name="total_time_travelling">
+        Total Time Travelling:
+    </string>
+
+    <!-- main menu xml -->
+
+    <string name="about">
+        About
+    </string>
+    <string name="clear_selections">
+        Clear selections
+    </string>
+
+    <!-- about xml -->
+
+    <string name="how_it_works_heading">
+        How It Works
+    </string>
+    <string name="how_it_works_content">
+        The names and locations of about 7700 airports from around the world are loaded from a data file (provided by OpenFlights.org) and stored in a list.
+        \n\nThe location of an airport can then be extracted from the list and used in a request to the Google Time Zone API to obtain the hourly offset from GMT at that airport location.
+        The date and time inputted alongside an airport are also passed as parameters in the timezone request to accurately account for the local daylight savings time offset at any given date.
+        \n\nWith accurate timezone offsets at hand, these can be used to convert the inputted departure and arrival times to equivalent GMT times.
+        \n\nThen, the number of hours since midnight at departure can then be subtracted from the number of hours since midnight at arrival.
+        Added onto this result is 24 for each day passed, which yields the total hourly duration of the flight.
+        \n\nRepeating this calculation for each inputted flight and adding the results up will give the entire duration of the trip.
+        \n\nThe layover duration is simply calculated as the time between arriving on one flight and departing on the next.
+    </string>
+    <string name="terms_heading">
+        Terms of Use
+    </string>
+    <string name="terms_intro">
+        Last updated: September 1, 2019
+        \n\nPlease read these Terms of Use (\"Terms\") carefully before using the Flight Time Calculator mobile application (the \"App\") operated by Manne Hedlund (\"I\").
+        \n\nYour access to and use of the App is conditioned on your acceptance of and compliance with these Terms.
+    </string>
+    <string name="terms_intro_bold">
+        By accessing or using the App you agree to be bound by these Terms, in addition to <![CDATA[<a href="https://www.google.com/intl/en/policies/terms">Google\'s Terms of Service</a>]]>.
+        If you do not accept any part of the Terms then you may not access the App.
+    </string>
+    <string name="content">
+        Content
+    </string>
+    <string name="terms_content">
+        I am not responsible for any content that may reside in the App.
+        In no event shall I be held liable for the loss of any content.
+        It is your sole responsibility to maintain appropriate backup of your content.
+    </string>
+    <string name="changes">
+        Changes
+    </string>
+    <string name="terms_changes">
+        I reserve the right to modify these Terms at any time, effective upon posting an updated version in the App.
+        In such a case, the last updated date found above will be revised.
+        Continued use of the App after any such changes shall constitute your consent to said changes.
+    </string>
+    <string name="contact">
+        contact
+    </string>
+    <string name="terms_contact">
+        If you have any questions about these Terms, please send me an email at <![CDATA[<a href="mailto:manne.jag@gmail.com">manne.jag@gmail.com</a>]]>.
+    </string>
+    <string name="privacy_heading">
+        Privacy Policy
+    </string>
+    <string name="privacy_intro">
+        Last updated: 1 September, 2019
+        \n\nThe Flight Time Calculator mobile application (the \"App\") was built by Manne Hedlund (\"I\", \"my\") as an Open Source project.
+        The App is provided by Manne Hedlund at no cost and is intended for use as is.
+        \n\nThis section aims to inform you of my policies regarding the collection, use, and disclosure of personal information in the App.
+        \n\nThe collection of personal information collected in the App plays a key role in providing the core functionality of the App.
+
+    </string>
+    <string name="privacy_intro_bold">
+        By using the App you agree to the collection and use of your information in relation to this policy as well as the <![CDATA[<a href="https://www.google.com/policies/privacy">Google Privacy Policy</a>]]>.
+    </string>
+    <string name="info_collection_and_use">
+        Information Collection and Use
+    </string>
+    <string name="privacy_information">
+        When using the App, you may directly provide the following flight information.
+        \n\nDeparture airport(s), departure date(s), departure time(s), arrival airport(s), arrival date(s) and arrival time(s).
+        \n\nThis information can be entered via text inputs that exist throughout the user interface.
+        All information provided by the user will be retained on the user\'s device and not collected by me in any way.
+        \n\nThe geographical coordinates of any provided airports, along with any provided date and time information, may be used in requests to the Google Time Zone API, as part of the Google Maps API.
+        In such cases, Google may receive access to the information.
+    </string>
+    <string name="security">
+        Security
+    </string>
+    <string name="privacy_security">
+        No method of transmission over the internet is 100\% secure and reliable, and so I cannot guarantee the absolute security of any information you provide.
+    </string>
+    <string name="privacy_changes">
+        I reserve the right to modify my privacy policy at any time, effective upon posting an updated version in the App.
+        In such a case, the last updated date found above will be revised.
+        Continued use of the App after any such changes shall constitute your consent to said changes.
+    </string>
+    <string name="privacy_contact">
+        If you have any questions about my privacy policy, please send me an email at <![CDATA[<a href="mailto:manne.jag@gmail.com">manne.jag@gmail.com</a>]]>.
+    </string>
+    <string name="source_code_heading">
+        Source Code
+    </string>
+    <string name="source_code">
+        All source code for this app is available on <![CDATA[<a href="https://github.com/TheManne/Flight-Time-Calculator">GitHub</a>]]>.
+    </string>
+    <string name="powered_by_google">
+        Powered by Google
+    </string>
+</resources>
