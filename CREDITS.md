@@ -1,12 +1,13 @@
 # Credits
-###### OpenFlights.org
+## OpenFlights.org
 All airport data has been obtained from a data file belonging to OpenFlights.org.
+
 Link: https://openflights.org/data.html
-
-###### Jake Wharton
+## Jake Wharton
 The ThreeTen Android Backport was used to make newer timezone, date and time functionality available for older API versions.
-Link: https://github.com/JakeWharton/ThreeTenABP
 
-###### Google
+Link: https://github.com/JakeWharton/ThreeTenABP
+## Google
 Requests to the Google Time Zone API were made to generate accurate timezone information from specific data.
+
 Link: https://developers.google.com/maps/documentation/timezone/start
